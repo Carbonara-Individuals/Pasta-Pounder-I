@@ -6610,22 +6610,10 @@
 		(uuid "db81c405-2dd3-4052-9024-75db66200f79")
 	)
 	(junction
-		(at 259.08 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "019c36a9-09d2-4885-81d1-e6aaeefc5c50")
-	)
-	(junction
 		(at 247.65 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "06dcefb9-1951-4378-9671-c9ac614a5379")
-	)
-	(junction
-		(at 259.08 151.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "105f8b86-24a8-4613-b878-eca8183601be")
 	)
 	(junction
 		(at 247.65 140.97)
@@ -6650,6 +6638,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "238890d0-47ae-4a2b-aa05-bee8a3a831e4")
+	)
+	(junction
+		(at 259.08 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2740ed09-306b-4564-a912-49fd7a5f167e")
 	)
 	(junction
 		(at 259.08 35.56)
@@ -6686,12 +6680,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "40ed4942-eed1-40dc-9204-79850fbdeb53")
-	)
-	(junction
-		(at 259.08 143.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4190d39e-5aa1-4d10-ae48-b8b7086ea48e")
 	)
 	(junction
 		(at 68.58 31.75)
@@ -6736,16 +6724,16 @@
 		(uuid "5a63191d-3014-4143-a493-a7f1e36ca911")
 	)
 	(junction
-		(at 259.08 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "652454d7-d0cf-4b96-b752-17435f294726")
-	)
-	(junction
 		(at 240.03 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6966d5b5-48dc-4f41-8314-81e365f2dddb")
+	)
+	(junction
+		(at 259.08 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7b643ca9-eedb-4230-9ce2-d50c43851251")
 	)
 	(junction
 		(at 163.83 43.18)
@@ -6802,6 +6790,12 @@
 		(uuid "a3aabc10-7f9b-4290-bd08-9ef030ea23d8")
 	)
 	(junction
+		(at 259.08 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a69121fa-e48c-4891-bb4c-4209f2c27afb")
+	)
+	(junction
 		(at 106.68 185.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6842,6 +6836,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bebc9810-3184-421d-a805-bd53bd7d11d5")
+	)
+	(junction
+		(at 259.08 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c36ad938-04b9-4988-9c11-ff6e745cec2b")
 	)
 	(junction
 		(at 30.48 50.8)
@@ -7207,16 +7207,6 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 105.41) (xy 259.08 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d64d8c8-8b38-4c6f-8af3-a919e02eae5a")
-	)
-	(wire
-		(pts
 			(xy 196.85 95.25) (xy 199.39 95.25)
 		)
 		(stroke
@@ -7287,6 +7277,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 151.13) (xy 260.35 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d8648e4-7434-474c-9382-df1e987fb318")
+	)
+	(wire
+		(pts
 			(xy 30.48 35.56) (xy 36.83 35.56)
 		)
 		(stroke
@@ -7304,6 +7304,16 @@
 			(type default)
 		)
 		(uuid "33f9f80a-9b57-420f-b31c-ed30a167b078")
+	)
+	(wire
+		(pts
+			(xy 259.08 143.51) (xy 260.35 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37e2459a-64ad-4a2a-b7f1-1b2445d3688f")
 	)
 	(wire
 		(pts
@@ -7327,16 +7337,6 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 97.79) (xy 259.08 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39760d21-35eb-45f8-9d2d-3df056924007")
-	)
-	(wire
-		(pts
 			(xy 68.58 152.4) (xy 68.58 148.59)
 		)
 		(stroke
@@ -7357,7 +7357,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 151.13) (xy 260.35 151.13)
+			(xy 247.65 151.13) (xy 259.08 151.13)
 		)
 		(stroke
 			(width 0)
@@ -7547,6 +7547,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 105.41) (xy 260.35 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c021b69-03ce-40d0-a81e-424709dd1887")
+	)
+	(wire
+		(pts
 			(xy 203.2 38.1) (xy 219.71 38.1)
 		)
 		(stroke
@@ -7554,16 +7564,6 @@
 			(type default)
 		)
 		(uuid "6352b54a-2e45-4afc-b4ed-d15f13b75483")
-	)
-	(wire
-		(pts
-			(xy 247.65 151.13) (xy 259.08 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "669a7961-a71a-44e2-9c36-b4f997cd7938")
 	)
 	(wire
 		(pts
@@ -7647,7 +7647,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 105.41) (xy 260.35 105.41)
+			(xy 247.65 105.41) (xy 259.08 105.41)
 		)
 		(stroke
 			(width 0)
@@ -8023,6 +8023,16 @@
 			(width 0)
 			(type default)
 		)
+		(uuid "c86d52fe-2093-45ab-9070-aded7b4c9faf")
+	)
+	(wire
+		(pts
+			(xy 247.65 97.79) (xy 259.08 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
 		(uuid "c92f8f97-d98e-4dc4-ae6e-5cb8433285f0")
 	)
 	(wire
@@ -8334,16 +8344,6 @@
 			(type default)
 		)
 		(uuid "f7630399-fc16-44cb-80b8-442b86c5e679")
-	)
-	(wire
-		(pts
-			(xy 259.08 143.51) (xy 260.35 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7c6ac31-9bdf-4008-9c87-33cf30a75dee")
 	)
 	(wire
 		(pts
@@ -9848,7 +9848,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_JLCPCB:D_0603"
 			(at 114.3 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -9941,7 +9941,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "lcsc_footprints:C8404_CONN-TH_WJ126V-5_0-2P"
 			(at 247.65 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -10100,7 +10100,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
 			(at 274.0152 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -10181,7 +10181,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:R_0402"
+		(property "Footprint" "PCM_JLCPCB:R_0603"
 			(at 71.882 156.21 90)
 			(hide yes)
 			(show_name no)
@@ -10263,7 +10263,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "lcsc_footprints:C8404_CONN-TH_WJ126V-5_0-2P"
 			(at 149.86 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -10497,7 +10497,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_JLCPCB:C_0603"
 			(at 246.6848 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -10792,7 +10792,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_JLCPCB:R_0603"
 			(at 121.92 187.198 90)
 			(hide yes)
 			(show_name no)
@@ -11027,7 +11027,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 151.13 31.115 0)
 			(hide yes)
 			(show_name no)
@@ -11224,7 +11224,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_JLCPCB:R_0603"
 			(at 38.608 40.64 90)
 			(hide yes)
 			(show_name no)
@@ -11306,7 +11306,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical"
 			(at 160.02 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -11391,7 +11391,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_JLCPCB:C_0603"
 			(at 246.6848 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -11472,7 +11472,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_JLCPCB:R_0603"
 			(at 273.812 85.09 90)
 			(hide yes)
 			(show_name no)
@@ -11863,7 +11863,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_JLCPCB:R_0603"
 			(at 193.04 142.748 90)
 			(hide yes)
 			(show_name no)
@@ -12173,7 +12173,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_JLCPCB:R_0603"
 			(at 160.02 38.862 90)
 			(hide yes)
 			(show_name no)
@@ -12333,7 +12333,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_JLCPCB:R_0603"
 			(at 273.812 123.19 90)
 			(hide yes)
 			(show_name no)
@@ -12414,7 +12414,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_JLCPCB:R_0603"
 			(at 193.04 97.028 90)
 			(hide yes)
 			(show_name no)
@@ -12774,85 +12774,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 259.08 101.6 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "56c1f10d-f62b-48be-9184-eb2f0f82a32e")
-		(property "Reference" "C8"
-			(at 262.89 100.838 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "470µF"
-			(at 264.414 102.616 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 258.1148 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 259.08 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 259.08 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "b023a97c-fccc-4a78-8254-66f1ced4a475")
-		)
-		(pin "1"
-			(uuid "6f30745f-9e35-44e8-8f4e-dc74b1da13f9")
-		)
-		(instances
-			(project "Pasta-Pounder-I"
-				(path "/4b2b0ba2-7cf9-4aa2-924c-d1661524830e"
-					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 143.51 58.42 0)
 		(unit 1)
@@ -13041,7 +12962,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "lcsc_footprints:C8404_CONN-TH_WJ126V-5_0-2P"
 			(at 247.65 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -13084,6 +13005,87 @@
 			(project "Pasta-Pounder-I"
 				(path "/4b2b0ba2-7cf9-4aa2-924c-d1661524830e"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 259.08 101.6 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "661afcc6-6f29-495c-abe7-961138343ceb")
+		(property "Reference" "C8"
+			(at 261.62 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470uF"
+			(at 261.62 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
+			(at 260.0452 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 259.08 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3057ae2f-28cc-45cc-bd91-36a36adbbec3")
+		)
+		(pin "2"
+			(uuid "11f4a9aa-a750-4eb1-89fd-4491e51a1a97")
+		)
+		(instances
+			(project "Pasta-Pounder-I"
+				(path "/4b2b0ba2-7cf9-4aa2-924c-d1661524830e"
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -13200,7 +13202,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 125.73 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -13359,7 +13361,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_JLCPCB:C_0603"
 			(at 251.46 132.3848 0)
 			(hide yes)
 			(show_name no)
@@ -13440,7 +13442,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_JLCPCB:C_0603"
 			(at 69.5452 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -13519,7 +13521,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_JLCPCB:R_0603"
 			(at 121.92 179.578 90)
 			(hide yes)
 			(show_name no)
@@ -13600,7 +13602,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_JLCPCB:R_0603"
 			(at 273.812 130.81 90)
 			(hide yes)
 			(show_name no)
@@ -13680,7 +13682,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "PCM_JLCPCB:Q_SOT-23"
 			(at 235.585 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -13955,7 +13957,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "10KΩ"
 			(at 236.22 48.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13966,7 +13968,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_JLCPCB:R_0603"
 			(at 231.902 46.99 90)
 			(hide yes)
 			(show_name no)
@@ -14205,7 +14207,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_JLCPCB:C_0603"
 			(at 58.1152 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -14362,7 +14364,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_JLCPCB:C_0603"
 			(at 251.46 86.6648 0)
 			(hide yes)
 			(show_name no)
@@ -14636,85 +14638,6 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 259.08 147.32 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8b43863a-02d0-4828-b4c2-3556e1a1d727")
-		(property "Reference" "C12"
-			(at 262.89 146.558 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "470µF"
-			(at 264.414 148.336 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 258.1148 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 259.08 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 259.08 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "15504efa-d567-4221-88e6-72f983259671")
-		)
-		(pin "1"
-			(uuid "bedf62a6-2795-4382-bb74-1780e6aafd17")
-		)
-		(instances
-			(project "Pasta-Pounder-I"
-				(path "/4b2b0ba2-7cf9-4aa2-924c-d1661524830e"
-					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 88.9 104.14 180)
 		(unit 1)
 		(body_style 1)
@@ -14746,7 +14669,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_JLCPCB:C_0603"
 			(at 87.9348 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -14825,7 +14748,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_JLCPCB:C_0603"
 			(at 247.65 137.4648 0)
 			(hide yes)
 			(show_name no)
@@ -14904,7 +14827,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_JLCPCB:C_0603"
 			(at 247.65 91.7448 0)
 			(hide yes)
 			(show_name no)
@@ -15060,7 +14983,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "lcsc_footprints:C115357_SW-SMD_L3_9-W3_0-P4_45"
 			(at 83.82 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -15641,7 +15564,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_JLCPCB:R_0603"
 			(at 160.02 44.958 90)
 			(hide yes)
 			(show_name no)
@@ -16050,7 +15973,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_JLCPCB:R_0603"
 			(at 273.812 77.47 90)
 			(hide yes)
 			(show_name no)
@@ -16289,7 +16212,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "lcsc_footprints:C165948_USB-C_SMD-TYPE-C-31-M-12_1"
 			(at 124.46 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -16437,7 +16360,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "lcsc_footprints:C115357_SW-SMD_L3_9-W3_0-P4_45"
 			(at 83.82 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -16518,7 +16441,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_JLCPCB:C_0603"
 			(at 87.9348 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -16978,7 +16901,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_JLCPCB:D_0603"
 			(at 114.3 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -17070,7 +16993,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_JLCPCB:R_0402"
+		(property "Footprint" "PCM_JLCPCB:R_0603"
 			(at 71.882 163.83 90)
 			(hide yes)
 			(show_name no)
@@ -17151,7 +17074,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PCM_JLCPCB:R_0603"
 			(at 32.258 40.64 90)
 			(hide yes)
 			(show_name no)
@@ -17355,6 +17278,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 259.08 147.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e5718195-9169-41eb-9133-195a112ae345")
+		(property "Reference" "C12"
+			(at 261.62 146.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470uF"
+			(at 261.62 148.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
+			(at 260.0452 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 259.08 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "41fedc57-75ff-4efd-b15e-515fb7b94bb9")
+		)
+		(pin "2"
+			(uuid "02d3bd9a-7a51-4f33-9b29-371f2fe2c308")
+		)
+		(instances
+			(project "Pasta-Pounder-I"
+				(path "/4b2b0ba2-7cf9-4aa2-924c-d1661524830e"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 260.35 151.13 0)
 		(unit 1)
@@ -17542,7 +17546,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
 			(at 262.5852 46.99 0)
 			(hide yes)
 			(show_name no)
