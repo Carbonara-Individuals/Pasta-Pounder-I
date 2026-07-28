@@ -13769,7 +13769,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RF_Module:ESP32-S3-WROOM-1"
+		(property "Footprint" "lcsc_footprints:C3013946_WIRELM-SMD_ESP32-S3-WROOM-1U"
 			(at 52.07 66.04 0)
 			(hide yes)
 			(show_name no)
