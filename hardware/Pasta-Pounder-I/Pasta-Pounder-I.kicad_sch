@@ -11169,7 +11169,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
+		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_2x4mm"
 			(at 154.94 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -13685,7 +13685,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
+		(property "Footprint" "PCM_JLCPCB:C_0805"
 			(at 260.0452 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -17192,7 +17192,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
+		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_2x4mm"
 			(at 124.46 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -17517,7 +17517,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
+		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_2x4mm"
 			(at 124.46 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -17677,7 +17677,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
+		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_2x4mm"
 			(at 154.94 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -17991,7 +17991,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
+		(property "Footprint" "PCM_JLCPCB:C_0805"
 			(at 260.0452 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -18073,7 +18073,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
+		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_2x4mm"
 			(at 154.94 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -18388,7 +18388,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm"
+		(property "Footprint" "Connector_Wire:SolderWirePad_1x01_SMD_2x4mm"
 			(at 154.94 147.32 0)
 			(hide yes)
 			(show_name no)
