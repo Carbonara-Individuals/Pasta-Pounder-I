@@ -9,6 +9,8 @@
 	(paper "A4")
 	(layers
 		(0 "F.Cu" signal)
+		(4 "In1.Cu" power)
+		(6 "In2.Cu" power)
 		(2 "B.Cu" signal)
 		(9 "F.Adhes" user "F.Adhesive")
 		(11 "B.Adhes" user "B.Adhesive")
@@ -34,6 +36,67 @@
 		(45 "User.4" user)
 	)
 	(setup
+		(stackup
+			(layer "F.SilkS"
+				(type "Top Silk Screen")
+			)
+			(layer "F.Paste"
+				(type "Top Solder Paste")
+			)
+			(layer "F.Mask"
+				(type "Top Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "F.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 1"
+				(type "prepreg")
+				(thickness 0.1)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "In1.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 2"
+				(type "core")
+				(thickness 1.24)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "In2.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 3"
+				(type "prepreg")
+				(thickness 0.1)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "B.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "B.Mask"
+				(type "Bottom Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "B.Paste"
+				(type "Bottom Solder Paste")
+			)
+			(layer "B.SilkS"
+				(type "Bottom Silk Screen")
+			)
+			(copper_finish "None")
+			(dielectric_constraints no)
+		)
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting
@@ -50,6 +113,7 @@
 		)
 		(capping no)
 		(filling no)
+		(zone_defaults)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -1746,7 +1810,7 @@
 	(footprint "lcsc_footprints:C428721_CONN-TH_XT30UPB-M"
 		(layer "F.Cu")
 		(uuid "1d2905d0-2560-4104-8b01-e4551ef642de")
-		(at 118 103.5 90)
+		(at 117.5 103 90)
 		(property "Reference" "CN1"
 			(at 0 -4 90)
 			(layer "F.SilkS")
@@ -3802,6 +3866,7 @@
 		(property "Reference" "L3"
 			(at 0 -4 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "7f6ad94c-3430-4b70-ac3b-2b9fc8450754")
 			(effects
 				(font
@@ -9283,7 +9348,7 @@
 	(footprint "PCM_JLCPCB:C_0805"
 		(layer "F.Cu")
 		(uuid "a223a1b1-c1fc-4bc0-82d0-0880a42d3219")
-		(at 136.5 102 -90)
+		(at 137 102 -90)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C8"
@@ -11358,6 +11423,7 @@
 		(property "Value" "JST-SH"
 			(at 0 7.12 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "66e66c28-b1ca-46c3-ae59-6ef6e97e179b")
 			(effects
 				(font
@@ -12784,6 +12850,17 @@
 		)
 		(embedded_fonts no)
 		(model "${KICAD10_3DMODEL_DIR}/RF_Module.3dshapes/ESP32-S2-MINI-1U.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/libs/lcsc/3dmodels/C2980299.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -14465,6 +14542,47 @@
 		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "f74989ac-3747-4a5c-aa96-cf1112a8494e")
+	)
+	(zone
+		(net "GND")
+		(layer "In1.Cu")
+		(uuid "d07d025b-5a17-419f-a1aa-f3e65b53166a")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0.5)
+		)
+		(min_thickness 0.25)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy 114 89) (xy 185 89) (xy 185 110) (xy 114 110)
+			)
+		)
+	)
+	(zone
+		(net "VCC")
+		(layer "In2.Cu")
+		(uuid "5e49e250-d652-4c6f-b662-49421d5743f2")
+		(hatch edge 0.5)
+		(priority 1)
+		(connect_pads
+			(clearance 0.5)
+		)
+		(min_thickness 0.25)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy 114 89) (xy 185 89) (xy 185 110) (xy 114 110)
+			)
+		)
 	)
 	(embedded_fonts no)
 )
