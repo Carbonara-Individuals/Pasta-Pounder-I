@@ -7,7 +7,7 @@
 	(title_block
 		(title "Pasta Pounder I")
 		(rev "v1.0")
-		(company "Carbonara Individuals")
+		(company "Carbonara Systems")
 		(comment 1 "Developed By: Daniel Principe & Saurya Shrestha")
 	)
 	(lib_symbols
